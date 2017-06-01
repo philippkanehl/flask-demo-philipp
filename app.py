@@ -7,10 +7,6 @@ def main():
   return redirect('/index')
 
 @app.route('/index')
-def hello_world():
-	return 'Hello World!'
-
-@app.route('/index')
 def index():
   return render_template('index.html')
 
